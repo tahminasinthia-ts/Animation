@@ -1,0 +1,50 @@
+*
+{
+	margin :0px 0px 300px 0px;
+	padding:0px;
+}
+body
+{
+	background-image: url(../images/77.jpg);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-width: 100vh; 
+}
+.walk
+{
+	background-image: url(../images/girl.png);
+  width: 274px;
+  height: 284px;
+  position:absolute;
+  top:381px;
+animation: walk 1s steps(5)infinite, walking 10s linear infinite;
+
+
+
+
+}
+ @keyframes walk{
+0%{
+background-position: 0;
+}
+ 
+ 100%
+
+{
+	background-position: 1370px;
+}
+ }
+
+ @keyframes walking{
+0%{
+transform:translate(-100px); 
+}
+ 
+ 100%
+
+{
+	transform: translate(1400px);
+}
+ }
+
